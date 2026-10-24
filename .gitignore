@@ -1,0 +1,19 @@
+# Upstream Linux source and archives
+src/linux-*/
+src/*.tar.xz
+src/*.tar.sign
+
+# Kernel build outputs
+build/*
+!build/.gitkeep
+
+# Generated images
+images/*
+!images/.gitkeep
+
+# Generated root filesystem
+rootfs/*
+
+# Temporary files
+*.swp
+*~
